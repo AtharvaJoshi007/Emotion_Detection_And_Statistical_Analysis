@@ -1,8 +1,6 @@
 # Emotion_Detection_And_Statistical_Analysis
 ## Custom Emotion Detection CNN Model
 
-
-
 ## Overview
 
 This repository presents a custom Convolutional Neural Network (CNN) model for emotion detection. It encompasses both the training of the model and real-time emotion detection using a webcam or camera feed.
@@ -50,11 +48,10 @@ model.save('AJ_EDM_Mk6.h5')
 
 ## Getting Started
 
-Prerequisites
-Python 3.x
-Dependencies listed in requirements.txt
-GPU (recommended) for faster training
-
+Prerequisites:
+   1. Python 3.x
+   2.Dependencies listed in requirements.txt
+   3. GPU (recommended) for faster training
 
 ## Real-time Emotion Detection
 
