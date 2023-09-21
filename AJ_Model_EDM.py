@@ -56,7 +56,7 @@ plt.imshow(grey,cmap='gray')
 plt.show()
 
 # Normalise the Image
-x_train = np.array([i.astype('float32')/255.0 for i in train_features]) # CHATGPT ZINDABAD FOR THIS LINE astype vala part
+x_train = np.array([i.astype('float32')/255.0 for i in train_features])
 # print(x_train)
 # Convert label to integer
 
