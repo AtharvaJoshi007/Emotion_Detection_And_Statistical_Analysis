@@ -20,7 +20,6 @@ def rescaleframe(frame,scale=1):
     return cv2.resize(frame,dimensions,interpolation=cv2.INTER_AREA)
 # Load Dataset
 Train_Dir =r'/content/train'
-# Val_Dir=r'C:\ACJ_Stark007\CODING\VSCODE PYTHON\IMAGE PROCESSING\images\validation'
 def load_dataset(directory):
 
     image_paths=[]
@@ -110,5 +109,4 @@ model.compile(optimizer='adam',loss='categorical_crossentropy',metrics='accuracy
 
 #---------------TRAIN THE MODEL---------------#
 history=model.fit(x=x_train,y=y_train,batch_size=512,epochs=300)
-# model.save('C:\ACJ_Stark007\CODING\VSCODE PYTHON\IMAGE PROCESSING\Saved Model\MyModel.h5')
 model.save('AJ_EDM_Mk6.h5')
