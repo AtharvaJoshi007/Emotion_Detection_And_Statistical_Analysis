@@ -11,11 +11,11 @@ warnings.filterwarnings('ignore')
 import tensorflow as tf
 from keras.utils import to_categorical
 from keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D
-
-model = tf.keras.models.load_model(r'VSCODE PYTHON\Emotion Detection and Analysis Model\Saved Model\AJ_EDM_Mk6.h5', compile=False)
+# Load Saved Model from AJ_Model_EDM.py
+model = tf.keras.models.load_model(r'AJ_EDM_Mk6.h5', compile=False)
 model.compile(optimizer="adam", loss="categorical_cross_entropy", metrics='accuracy')
 
-harr_cascade = cv2.CascadeClassifier("VSCODE PYTHON\AI Based Interview System Project\Harr_Face.xml")
+harr_cascade = cv2.CascadeClassifier("Harr_Face.xml")
 
 preds = {"[1, 0, 0, 0, 0, 0, 0]": 'Angry',
          "[0, 1, 0, 0, 0, 0, 0]": 'DIsgust',
