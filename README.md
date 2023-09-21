@@ -50,7 +50,7 @@ model.save('AJ_EDM_Mk6.h5')
 
 Prerequisites:
    1. Python 3.x
-   2.Dependencies listed in requirements.txt
+   2. Dependencies listed in requirements.txt
    3. GPU (recommended) for faster training
 
 ## Real-time Emotion Detection
