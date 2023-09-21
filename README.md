@@ -83,7 +83,7 @@ total_frames = 1
 
 To run real-time emotion detection, follow these steps:
 
-1. Ensure you have installed the required dependencies listed in `requirements.txt`.
+1. Ensure you have installed the required dependencies listed mentioned above.
 
 2. Download the pre-trained model weights `AJ_EDM_Mk6.h5` generated using the model training code provided earlier.
 
@@ -97,7 +97,7 @@ The script also provides an analysis of the distribution of detected emotions an
 
 ### Results and Analysis
 Model Training
-The model was trained for a total of 300 epochs, and the saved model weights can be found in AJ_EDM_Mk6.h5.
+The model was trained for a total of 300 epochs, and the saved model weights can be found in `AJ_EDM_Mk6.h5` .
 
 ### Statistical Analysis with OpenCV
 In the live_emotion_detection.py script, statistical analysis is performed using OpenCV to detect emotions in facial expressions.
