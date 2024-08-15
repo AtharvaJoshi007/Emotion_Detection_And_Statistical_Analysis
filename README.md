@@ -4,6 +4,7 @@
 ## Overview
 
 This repository presents a custom Convolutional Neural Network (CNN) model for emotion detection. It encompasses both the training of the model and real-time emotion detection using a webcam or camera feed.
+
 ## Necessary Imports
 
 ``` python
@@ -24,6 +25,8 @@ from keras.layers import Dense,Conv2D,Dropout,Flatten,MaxPooling2D
 from tensorflow.keras.preprocessing.image import load_img
 ```
 ## Model Architecture
+
+![AJ_EDM_Mk6 h5](https://github.com/user-attachments/assets/7bc62655-11fc-4ee1-af32-ca451f205f45)
 
 The emotion detection model boasts the following architecture:
 
