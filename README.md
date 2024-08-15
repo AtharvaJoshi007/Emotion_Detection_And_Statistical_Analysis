@@ -26,7 +26,10 @@ from tensorflow.keras.preprocessing.image import load_img
 ```
 ## Model Architecture
 
-![AJ_EDM_Mk6 h5](https://github.com/user-attachments/assets/7bc62655-11fc-4ee1-af32-ca451f205f45)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7bc62655-11fc-4ee1-af32-ca451f205f45" alt="AJ_EDM_Mk6 h5" width="150" height="1400"/>
+</p>
+
 
 The emotion detection model boasts the following architecture:
 
